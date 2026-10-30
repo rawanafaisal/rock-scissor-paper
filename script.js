@@ -9,3 +9,9 @@ if (number < 1/3) {
 }
 }
 console.log(getComputerChoice());
+
+function getHumanChoice(){
+	let userchoice = prompt ("Enter your choice:")
+	return userchoice;
+}
+console.log(getHumanChoice());
